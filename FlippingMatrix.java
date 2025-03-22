@@ -3,11 +3,10 @@ public class FlippingMatrix {
         int [][] arr = { {0,0,1,1}, {1,0,1,0},{1,1,0,0}};
         int n = arr.length;
         int m = arr[0].length;
-
-
+        
         for ( int i = 0 ; i < n; i++){
            if (arr[i][0] == 0) {
-               for (int j = 0 ; j  < m ;j++){
+               for (int j = 0; j < m; j++) {
                   if(arr[i][j] == 0){
                       arr[i][j] = 1;
                   }else{
